@@ -1,0 +1,39 @@
+{
+  "_note": "Values transcribed from the NASA LSDA files in Data_Set.zip (AP005 tables converted from .xls, AP005 figures/PDFs, DSO 484 table). Group means as published; p = significance of the first postflight evaluation vs preflight.",
+  "apollo": {
+    "source": "NASA LSDA AP005 - Apollo Flight Crew Cardiovascular Evaluations (Hoffler & Johnson, NASA SP-368, 1975). Apollo 7-17, mission length 6.0 to 12.6 days.",
+    "n": { "resting": 24, "lbnp": 18, "stand": 9 },
+    "heartRate": {
+      "restingBpm": { "pre": 61.6, "post1": 69.7, "p": 0.02, "controlsPre": 69.7, "controlsPost": 69.4 },
+      "lbnp50Bpm": { "pre": 76.5, "post1": 108.5, "p": 0.001, "controlsPre": 85.1, "controlsPost": 87.3 },
+      "standBpm": { "pre": 76.4, "post1": 99.8, "p": 0.001, "controlsPre": 79.6, "controlsPost": 81.1 }
+    },
+    "systolicBp": {
+      "resting": { "pre": 115.3, "post1": 111.6, "p": "n.s." },
+      "stand": { "pre": 118.8, "post1": 105.8, "p": 0.001 },
+      "lbnp50": { "pre": 104.8, "post1": 91.5, "p": 0.01 }
+    },
+    "diastolicBp": { "resting": { "pre": 67.0, "post1": 67.1, "p": "n.s." } },
+    "pulsePressureStand": { "pre": 37.8, "post1": 25.6, "p": 0.02 },
+    "strokeVolumeMl": { "resting": { "pre": 85.8, "post1": 74.1, "p": 0.02 }, "lbnp50": { "pre": 57.6, "post1": 41.4, "p": 0.05 } },
+    "calfCircumferenceCm": { "pre": 37.47, "post1": 36.38, "p": 0.05 },
+    "recoveryByThirdEval": "Resting heart rate was back to 63.5 bpm (not significant vs preflight) at the third postflight evaluation.",
+    "figures": {
+      "oralTempVsRestingHr": { "r": 0.27, "n": 24, "significant": false, "slopePctPerDegC": 10.3, "text": "Change in oral temperature vs change in resting heart rate: r = 0.27, NOT significant, n = 24 (about +10 % resting heart rate per +1 degC)." },
+      "calfVsWeightlessness": { "r": -0.47, "n": 24, "p": "<0.025", "text": "Calf size decreased more the longer the crew were weightless (r = -0.47, p < 0.025, n = 24): fluid shifts toward the head." },
+      "weightLoss": "Apollo and Gemini crews lost body weight in flight and the loss levelled off after about 200 hours.",
+      "cardiothoracicRatio": "Chest X-rays showed a smaller heart (cardiothoracic ratio decreased) after flight, consistent with cardiovascular deconditioning."
+    }
+  },
+  "sts46": {
+    "source": "NASA LSDA DSO 484 (Putcha). Whitson PA, Putcha L, Chen YM, Baker E. J Pineal Res 1995;18(3):141-7.",
+    "design": "7-day bright-light / sleep-shifting protocol, 8 subjects (three sleep-shift protocols A, B, C).",
+    "melatoninSalivaPhaseDelayHours": [13.5, 11.6, 13.5, 10.4, 10.5],
+    "note": "Only 5 of 8 subjects have a salivary melatonin result. Several other cells in the table lost their decimal point (for example 169 for 16.9), so only the clean salivary melatonin column is used."
+  },
+  "inspiration4": {
+    "source": "NASA OSDR OSD-575 / OSD-569 (LSDS-8): SpaceX Inspiration4, 3-day mission, September 2021, 4 crew (C001-C004). Samples preflight L-92, L-44, L-3 and post-flight R+1, R+45, R+82, R+194 (days).",
+    "n": 4,
+    "limits": "Only 4 people and 3 days in orbit: results show direction and size of change, not statistics."
+  }
+}

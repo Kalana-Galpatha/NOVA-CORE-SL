@@ -1,0 +1,317 @@
+{
+ "source": "chatbot_qa.jsonl",
+ "records": 1080,
+ "questions": [
+  {
+   "q": "How am I doing?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 266,
+   "urgency": 3
+  },
+  {
+   "q": "How is the cabin air?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 110,
+   "urgency": 3
+  },
+  {
+   "q": "Any active alerts?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 91,
+   "urgency": 3
+  },
+  {
+   "q": "What is my heart rate?",
+   "intent": {
+    "kind": "reading",
+    "arg": "hr"
+   },
+   "count": 60,
+   "urgency": 2
+  },
+  {
+   "q": "What should I do about a high heart rate?",
+   "intent": {
+    "kind": "advice",
+    "arg": "hr"
+   },
+   "count": 56,
+   "urgency": 2
+  },
+  {
+   "q": "What is a solar particle event?",
+   "intent": {
+    "kind": "glossary",
+    "arg": "Solar particle event"
+   },
+   "count": 54,
+   "urgency": 3
+  },
+  {
+   "q": "Is my radiation dose safe?",
+   "intent": {
+    "kind": "reading",
+    "arg": "dose"
+   },
+   "count": 46,
+   "urgency": 2
+  },
+  {
+   "q": "How is my blood pressure?",
+   "intent": {
+    "kind": "reading",
+    "arg": "bp"
+   },
+   "count": 45,
+   "urgency": 2
+  },
+  {
+   "q": "What is the radiation level?",
+   "intent": {
+    "kind": "reading",
+    "arg": "dose"
+   },
+   "count": 43,
+   "urgency": 2
+  },
+  {
+   "q": "What is HRV?",
+   "intent": {
+    "kind": "explain",
+    "arg": "hrv"
+   },
+   "count": 41,
+   "urgency": 3
+  },
+  {
+   "q": "What is my HRV?",
+   "intent": {
+    "kind": "reading",
+    "arg": "hrv"
+   },
+   "count": 32,
+   "urgency": 2
+  },
+  {
+   "q": "What tasks are due?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 25,
+   "urgency": 1
+  },
+  {
+   "q": "Why does CO2 matter?",
+   "intent": {
+    "kind": "explain",
+    "arg": "co2"
+   },
+   "count": 24,
+   "urgency": 3
+  },
+  {
+   "q": "What is my blood oxygen?",
+   "intent": {
+    "kind": "reading",
+    "arg": "spo2"
+   },
+   "count": 23,
+   "urgency": 2
+  },
+  {
+   "q": "Explain SpO2 in simple words",
+   "intent": {
+    "kind": "explain",
+    "arg": "spo2"
+   },
+   "count": 23,
+   "urgency": 2
+  },
+  {
+   "q": "What is my temperature?",
+   "intent": {
+    "kind": "reading",
+    "arg": "temp"
+   },
+   "count": 21,
+   "urgency": 2
+  },
+  {
+   "q": "What is the CO2 level?",
+   "intent": {
+    "kind": "reading",
+    "arg": "co2"
+   },
+   "count": 20,
+   "urgency": 3
+  },
+  {
+   "q": "Hello",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 16,
+   "urgency": 0
+  },
+  {
+   "q": "What is cabin pressure?",
+   "intent": {
+    "kind": "reading",
+    "arg": "pressure"
+   },
+   "count": 14,
+   "urgency": 3
+  },
+  {
+   "q": "I have a headache",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 13,
+   "urgency": 2
+  },
+  {
+   "q": "How is my bone health?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 12,
+   "urgency": 0
+  },
+  {
+   "q": "How is my immune system?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 12,
+   "urgency": 1
+  },
+  {
+   "q": "Tell me a joke",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 5,
+   "urgency": 0
+  },
+  {
+   "q": "Am I getting enough sleep?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 5,
+   "urgency": 0
+  },
+  {
+   "q": "I cannot sleep",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 5,
+   "urgency": 0
+  },
+  {
+   "q": "How should I sleep in space?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 5,
+   "urgency": 0
+  },
+  {
+   "q": "I feel nauseous",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 2,
+   "urgency": 2
+  },
+  {
+   "q": "I feel dizzy",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 2,
+   "urgency": 2
+  },
+  {
+   "q": "How is my vision?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 2
+  },
+  {
+   "q": "What should I eat?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "What can you do?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "How is my breathing?",
+   "intent": {
+    "kind": "breathing"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "My chest hurts",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 3
+  },
+  {
+   "q": "Why do astronauts exercise?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "How much exercise should I do?",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "I feel stressed",
+   "intent": {
+    "kind": "reply"
+   },
+   "count": 1,
+   "urgency": 0
+  },
+  {
+   "q": "How do I stay hydrated?",
+   "intent": {
+    "kind": "reply",
+    "arg": "how do I keep up my hydration"
+   },
+   "count": 1,
+   "urgency": 0
+  }
+ ]
+}
